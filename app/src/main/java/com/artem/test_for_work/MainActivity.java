@@ -3,7 +3,7 @@ package com.artem.test_for_work;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Toolbar;
+import android.support.v7.widget.Toolbar;
 
 
 public class MainActivity extends Activity {
