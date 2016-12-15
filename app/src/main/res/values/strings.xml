@@ -3,4 +3,7 @@
     <string name="search_title">Search</string>
 
     <string name="menu_item_news">Новости</string>
+    <string name="view_news_open">Open</string>
+    <string name="view_news_close">Close</string>
+
 </resources>
