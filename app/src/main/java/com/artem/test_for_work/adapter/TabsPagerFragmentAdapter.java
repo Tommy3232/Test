@@ -6,6 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.artem.test_for_work.fragment.ExampleFragment;
+import com.artem.test_for_work.fragment.ExampleFragment1;
+import com.artem.test_for_work.fragment.ExampleFragment2;
 
 public class TabsPagerFragmentAdapter extends FragmentPagerAdapter {
 
@@ -30,9 +32,9 @@ public class TabsPagerFragmentAdapter extends FragmentPagerAdapter {
             case 0:
                 return ExampleFragment.getInstance();
             case 1:
-               return ExampleFragment.getInstance();
+               return ExampleFragment1.getInstance();
             case 2:
-                return ExampleFragment.getInstance();
+                return ExampleFragment2.getInstance();
         }
 
 

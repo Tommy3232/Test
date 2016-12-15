@@ -1,6 +1,5 @@
 package com.artem.test_for_work.fragment;
 
-
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -10,16 +9,16 @@ import android.view.ViewGroup;
 
 import com.artem.test_for_work.R;
 
-public class ExampleFragment extends Fragment {
-    private static final int LAYOUT = R.layout.fragment_example;
+public class ExampleFragment1 extends Fragment {
+    private static final int LAYOUT = R.layout.fragment_example1;
     private View view;
 
-   public static ExampleFragment getInstance(){
-       Bundle args =new Bundle();
-       ExampleFragment fragment= new ExampleFragment();
-       fragment.setArguments(args);
-       return fragment;
-   }
+    public static ExampleFragment1 getInstance(){
+        Bundle args =new Bundle();
+        ExampleFragment1 fragment= new ExampleFragment1();
+        fragment.setArguments(args);
+        return fragment;
+    }
 
     @Nullable
     @Override
