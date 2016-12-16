@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import com.artem.test_for_work.R;
 
 public class ContactFragment extends AbstractTabFragment {
-    private static final int LAYOUT = R.layout.fragment_example;
+    private static final int LAYOUT = R.layout.fragment_contacts;
 
    public static ContactFragment getInstance(Context context){
        Bundle args =new Bundle();
